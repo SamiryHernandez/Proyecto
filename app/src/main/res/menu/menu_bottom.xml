@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Inicio"
+        android:icon="@drawable/vector"
+        android:title="@string/Inicio"
+
+        />
+
+    <item
+        android:id="@+id/Ranking"
+        android:icon="@drawable/rank"
+        android:title="Ranking" />
+
+
+
+    <item
+        android:id="@+id/Perfil"
+        android:icon="@drawable/perfil"
+        android:title="Perfil"
+        />
+
+    <item
+        android:id="@+id/Amigos"
+        android:icon="@drawable/baseline_person_add_alt_1_24"
+        android:title="Amigos"
+        app:itemIconTint="@color/md_theme_dark_background"/>
+</menu>

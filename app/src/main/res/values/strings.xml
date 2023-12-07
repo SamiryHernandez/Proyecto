@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gimnasio Forcé</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="email">Correo electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot_password">¿Has olvidado tu contraseña?</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">¿No tienes una cuenta? Registrate aquí</string>
+    <string name="empty_email">El correo electrónico no puede estar vacío.</string>
+    <string name="invalid_email">El correo electrónico no es válido.</string>
+    <string name="empty_password">La contraseña no puede estar vacía.</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido</string>
+    <string name="register2">Registro</string>
+    <string name="weight">Peso (lbs)</string>
+    <string name="sign_in">Registrarse</string>
+    <string name="already_register">¿Ya tienes cuenta? Inicia sesión aquí</string>
+    <string name="empty_firstname">El nombre no puede estar vacío.</string>
+    <string name="empty_lastname">El apellido no puede estar vacío.</string>
+    <string name="empty_weight">El peso no puede estar vacío.</string>
+    <string name="invalid_weight">El peso debe ser un número, mayor a 0 y menor a 300.</string>
+    <string name="login2">Inicio de sesión</string>
+    <string name="forgot">Recuperar contraseña</string>
+    <string name="forgot2">Enviar correo electrónico</string>
+    <string name="go_back_login">Volver al inicio de sesión</string>
+    <string name="country">País</string>
+    <string name="empty_country">El país no puede estar vacío.</string>
+    <string name="title_activity_menu_main">MenuMainActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Perfil">Perfil</string>
+    <string name="Ranking">Ranking</string>
+    <string name="Inicio">Inicio</string>
+
+</resources>

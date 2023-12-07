@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/Inicio">
+
+    <fragment
+        android:id="@+id/Inicio"
+        android:name="com.uth.proyecto.fragments.InicioFragment"
+        android:label="@string/Inicio"
+        tools:layout="@layout/fragment_inicio"
+        />
+
+    <fragment
+        android:id="@+id/Ranking"
+        android:name="com.uth.proyecto.fragments.RankingFragment"
+        android:label="@string/Ranking"
+        tools:layout="@layout/fragment_ranking"
+
+        />
+
+    <fragment
+        android:id="@+id/Perfil"
+        android:name="com.uth.proyecto.fragments.PerfilFragment"
+        tools:layout="@layout/fragment_perfil"
+        />
+
+    <fragment
+        android:id="@+id/Amigos"
+        android:name="com.uth.proyecto.fragments.FriendFragment"
+        tools:layout="@layout/fragment_friend"
+        />
+
+    <fragment
+        android:id="@+id/AmigosNuevos"
+        android:name="com.uth.proyecto.fragments.AmigosFragment"
+        tools:layout="@layout/fragment_amigos"
+        />
+
+    <fragment
+        android:id="@+id/Solicitudes"
+        android:name="com.uth.proyecto.fragments.SolicitudesFragment"
+        tools:layout="@layout/fragment_solicitudes"
+        />
+
+    <fragment
+        android:id="@+id/Sugerencias"
+        android:name="com.uth.proyecto.fragments.SugerenciasFragment"
+        tools:layout="@layout/fragment_sugerencias"
+        />
+</navigation>
